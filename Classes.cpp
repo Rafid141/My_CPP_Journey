@@ -7,73 +7,49 @@ class Student{
 private:
 
     int age;
-
     int standard;
-
     std::string first_name;
-
     std::string last_name;
 
 public:
 
     void set_age(int a){
-
         age = a;
-
     }
 
     int get_age (){
-
         return age;
-
     }
 
     void set_standard(int b){
-
         standard = b;
-
     }
 
     int get_standard (){
-
         return standard;
-
     }
 
     void set_first_name(std::string f){
-
         first_name = f;
-
     }
 
     std::string get_first_name (){
-
         return first_name;
-
     }
 
     void set_last_name(std::string l){
-
         last_name = l;
-
     }
 
     std::string get_last_name (){
-
         return last_name;
-
     }
 
     std::string to_string(){
-
         std::stringstream ss;
-
         ss << age << "," << first_name << "," << last_name << "," << standard;
-
         return ss.str();
-
     }
-
 
 };
 
